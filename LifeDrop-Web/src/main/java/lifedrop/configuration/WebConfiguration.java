@@ -18,7 +18,7 @@ public class WebConfiguration implements WebApplicationInitializer {
 		DispatcherServlet dispatcherServlet =new DispatcherServlet(context);
 		
 		ServletRegistration.Dynamic servlet = servletContext.addServlet("lifedropServer", dispatcherServlet);
-		servlet.setLoadOnStartup(2);
+		servlet.setLoadOnStartup(5);
 		servlet.addMapping("/");
 		
 	}

@@ -21,38 +21,48 @@
 <title>Life Drop</title>
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="">LifeDrop</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Top Donor</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Blog</a>
-      </li>
-      <li class="nav-item dropdown">
-      </li>
-    </ul>
-  </div>
-</nav>
-
-
 </head>
 <body>
 
-	<div class="container">
-		<h1>Hi I am body</h1>
-		<h3>
-			<a href="about">This is about</a>
-		</h3>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand" href="">LifeDrop</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+		aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		<ul class="navbar-nav">
+			<li class="nav-item active"><a class="nav-link" href="">Home
+					<span class="sr-only">(current)</span>
+			</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Top Donor</a>
+			</li>
+			<li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+			<li class="nav-item dropdown"></li>
+		</ul>
+
+
+		<ul class="navbar-nav ml-auto p-1">
+			<li class="nav-item shadow-sm p-1"><a class="nav-link media"
+				href="login"> LogIn </a></li>
+		</ul>
 	</div>
+</nav>
+
+	<main>
+	
+	
+		<div class="container my-5 p-1 shadow-lg border-lg">
+			<h1>Hi I am body</h1>
+			<h3>
+				<a href="about">This is about</a>
+			</h3>
+		</div>
+		
+		
+	</main>
 
 
 
