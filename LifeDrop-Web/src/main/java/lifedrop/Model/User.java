@@ -1,4 +1,4 @@
-package lifedrop.dummydata;
+package lifedrop.Model;
 
 public class User{
 	private String name;
