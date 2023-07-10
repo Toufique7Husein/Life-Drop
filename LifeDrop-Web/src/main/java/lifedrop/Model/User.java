@@ -2,7 +2,7 @@ package lifedrop.Model;
 
 public class User{
 	private String name;
-	private String emai;
+	private String email;
 	private String password;
 	private String confirm;
 	
@@ -10,10 +10,10 @@ public class User{
 	
 	
 	
-	public User(String name, String emai, String password, String confirm) {
+	public User(String name, String email, String password, String confirm) {
 		super();
 		this.name = name;
-		this.emai = emai;
+		this.email = email;
 		this.password = password;
 		this.confirm = confirm;
 	}
@@ -39,15 +39,15 @@ public class User{
 
 
 	public String getEmai() {
-		return emai;
+		return email;
 	}
 
 
 
 
 
-	public void setEmai(String emai) {
-		this.emai = emai;
+	public void setEmai(String email) {
+		this.email = email;
 	}
 
 
@@ -88,7 +88,7 @@ public class User{
 
 	@Override
 	public String toString() {
-		return "User [name=" + name + ", emai=" + emai + ", password=" + password + ", confirm=" + confirm + "]";
+		return "User [name=" + name + ", email=" + email + ", password=" + password + ", confirm=" + confirm + "]";
 	}
 	
 	
