@@ -10,19 +10,19 @@ Blood donation is not the main goal of this web app. Via this app, donors will b
 
 # 1. User Interface Layer:
 
-* Home Page: Displays information about the Lifedrop web application and its features.
-* Donor Page: Shows a list of registered donors and their contributions. Donors can be rewarded for their contributions.
-Medicine Order Page: Allows users to order medicines online.
-Doctor Page: Provides access to doctor profiles and enables users to directly message doctors for consultation.
+* **Home Page:** Displays information about the Lifedrop web application and its features.
+* **Donor Page:** Shows a list of registered donors and their contributions. Donors can be rewarded for their contributions.
+* **Medicine Order Page:** Allows users to order medicines online.
+* **Doctor Page:** Provides access to doctor profiles and enables users to directly message doctors for consultation.
 # 2. Donor Management:
 
-*Donor Registration: Handles the process of registering new donors.
-*Donor Rewards: Manages the rewards and recognition for donors based on their contributions.
+* **Donor Registration:** Handles the process of registering new donors.
+* **Donor Rewards:** Manages the rewards and recognition for donors based on their contributions.
 # 3. Medicine Order Management:
 
-* Medicine Catalog: Stores information about available medicines, including their names, descriptions, and prices.
-* Order Processing: Handles the process of placing and processing medicine orders.
+* **Medicine Catalog:** Stores information about available medicines, including their names, descriptions, and prices.
+* **Order Processing:** Handles the process of placing and processing medicine orders.
 # 4. Doctor Management:
 
-* #Doctor Profiles:# Stores information about doctors, including their names, qualifications, specialties, and contact details.
-*Consultation Messaging: Handles the messaging functionality to enable users to communicate with doctors for consultation.
+* **Doctor Profiles:** Stores information about doctors, including their names, qualifications, specialties, and contact details.
+* **Consultation Messaging:** Handles the messaging functionality to enable users to communicate with doctors for consultation.
